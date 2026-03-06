@@ -1,14 +1,28 @@
 {
-  "spider": "",
-  "sites": [
+  "sites":[
     {
-      "key": "fty",
-      "name": "饭太硬",
-      "type": 3,
-      "api": "http://饭太硬.com/tv",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
+      "key":"fty_cms",
+      "name":"饭太硬",
+      "type":1,
+      "api":"https://www.饭太硬.com/api.php/provide/vod/",
+      "searchable":1,
+      "quickSearch":1,
+      "filterable":1
     }
+  ],
+  "parses":[
+    {
+      "name":"解析",
+      "type":0,
+      "url":""
+    }
+  ],
+  "lives":[
+  ],
+  "flags":[
+    "youku",
+    "iqiyi",
+    "qq",
+    "mgtv"
   ]
 }
